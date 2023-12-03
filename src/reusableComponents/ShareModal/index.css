@@ -1,0 +1,47 @@
+.share-modal-container {
+  background-color: var(--bg-color);
+  padding: 20px;
+  text-align: center;
+  color: var(--color);
+  border: 2px solid var(--color);
+  width: 90vw;
+  max-width: 550px;
+}
+
+.share-modal-container > img {
+  width: 40%;
+  filter: invert(var(--val));
+}
+
+.share-modal-logo {
+  width: 40%;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.share-modal-container > p {
+  font-size: 1rem;
+  color: var(--color);
+}
+
+.share-modal-container-input {
+  width: 80%;
+  margin: 1rem;
+  color: white;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+.copy-link-button {
+  background-color: lightblue;
+  color: black;
+  padding: 5px;
+  border-radius: 6px;
+  border: 2px solid #0cc;
+}
+.copy-link-button:hover {
+  cursor: pointer;
+}

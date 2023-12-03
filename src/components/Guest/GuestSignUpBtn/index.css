@@ -1,0 +1,23 @@
+.guest-sign-up-button-container {
+  position: fixed;
+  z-index: 9999;
+  top: 90px;
+  right: 30px;
+}
+
+.guest-sign-up-button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  background: var(--btn-color);
+  border: none;
+  transition: 0.3s ease-in-out;
+  color: #ffffff;
+}
+
+.guest-sign-up-button:hover {
+  transform: scale(1.1);
+  color: var(----btn-color-hover);
+}
